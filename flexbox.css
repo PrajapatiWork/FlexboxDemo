@@ -1,0 +1,35 @@
+.flex-container-1{
+    height: 200px;
+}
+.row{
+    display: flex;        
+    flex-direction: row;         
+    color: rgb(50, 217, 220);
+    margin: 0 5px 0 5px;
+}  
+.row> div{
+    height: 45px;
+    background-color: #fff;    
+    flex-grow: 2;
+    margin: 3px;
+    border-radius: 7px;   
+    text-indent: 5px;
+}
+.flex-container-2>.flex-item{
+    height: 45px;
+    align-content: center;
+}
+.flex-container-1, .flex-container-2{
+    display: flex;     
+    font-size: 4vh;  
+    color: #fff;  
+}
+.flex-item{    
+    background-color: rgb(50, 217, 220);
+    border:1px solid rgb(96, 231, 159);
+    flex-grow: 2;
+    margin: 3px;
+    border-radius: 7px;  
+    text-indent: 5px;      
+}
+
